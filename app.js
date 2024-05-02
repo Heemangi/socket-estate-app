@@ -2,7 +2,7 @@ import { Server } from "socket.io";
 
 const io = new Server({
   cors: {
-    origin: "https://frontend-estate-app.vercel.app",
+    origin: "https://frontend-estate-app.onrender.com",
     methods: ["GET", "POST"],
     allowedHeaders: ["Authorization"],
     credentials: true
